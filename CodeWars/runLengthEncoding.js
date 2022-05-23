@@ -17,4 +17,3 @@ var runLengthEncoding = function(str){
     return jim
 }
 
-runLengthEncoding('Succck my dick')
