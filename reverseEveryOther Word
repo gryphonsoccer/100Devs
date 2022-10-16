@@ -1,0 +1,13 @@
+let str = "  Please Help!  "
+function flip(sentence) {
+  let bob = sentence.trim().split(" ")
+  let billy = ""
+  for (i = 0; i <= bob.length - 1; i++) {
+    if(i%2===0){
+      billy += bob[i] + " "
+    }else{
+    billy += bob[i].split("").reverse().join("") +" "
+      }
+  }
+  return billy.trim()
+}
